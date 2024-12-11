@@ -114,7 +114,35 @@
    vscode-teriri-custom-style/Animate/Misc/index.css
    vscode-teriri-custom-style/Animate/Tabs/index-flip.css
    ```
-   
+3. 适用于我自己
+   ```shell
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/index.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Style/Active/index.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Style/teriri-style.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/teriri-animate.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Active/index.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Scrolling/index.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Misc/index.css",
+    "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Tabs/index-flip.css"
+    ```
+4. vscode 配置中
+   ```json
+     "vscode_custom_css.imports": [
+         // 部分使用
+        // "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/teriri-animate.css",
+        // "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Scrolling/index.css",
+        // "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Style/teriri-style.css",
+        // "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/index.css",
+        // 全使用
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/index.css",
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Style/Active/index.css",
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/teriri-animate.css",
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Active/index.css",
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Scrolling/index.css",
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Misc/index.css",
+        "file:///C:/Users/16143/AppData/Roaming/Code/User/custom/Animate/Tabs/index-flip.css"
+      ]
+   ```
 ---
 
 # 更新日志：
